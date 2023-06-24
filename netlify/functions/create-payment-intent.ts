@@ -3,8 +3,7 @@ import dotenv from 'dotenv';
 import Stripe from 'stripe';
 import { PaymentRequest, AddressParam } from '@stripe/stripe-js';
 
-const STRIPE_SECRET_KEY: string =
-	'sk_test_51Mex0ESDtnUpbzirsMxbtIbqaO5bnOGuA074M0HupnldJpGovqcbjmXXbj5eEgg1Sv4m9pSe5U6NHBm4Taujtwyk00v5SLoYq2';
+const STRIPE_SECRET_KEY: string =''
 dotenv.config();
 const stripe = new Stripe(STRIPE_SECRET_KEY, {
 	apiVersion: '2022-11-15',
